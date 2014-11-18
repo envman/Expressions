@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +9,10 @@ namespace Expressions
     {
         static void Main(string[] args)
         {
+            var expressions = new ExpressionTest();
+            expressions.Run();
         }
+
+      
     }
 }
